@@ -1,0 +1,29 @@
+.pull-request-container {
+  display: flex;
+  height: calc(100vh - 180px);
+  min-height: 600px;
+  .menuContainer {
+    background-color: #fff;
+    margin-right: 10px;
+    width: 256px;
+    height: 100%;
+    .menu {
+      width: 256px;
+      height: calc(100% - 32px);
+      overflow-y: scroll;
+    }
+    .addEnvItem {
+      display: flex;
+      flex-wrap: nowrap;
+      padding: 8px;
+      height: 32px;
+    }
+  }
+  .right-container {
+    flex: 1;
+    .control-container {
+      margin-bottom: 10px;
+      background-color: #fff;
+    }
+  }
+}
