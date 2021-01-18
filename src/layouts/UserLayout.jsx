@@ -39,7 +39,7 @@ const UserLayout = (props) => {
                 <img alt="logo" className={styles.logo} src={quantinfoDark} />
               </Link>
             </div>
-            <div className={styles.desc}>量锐科技牛逼！！！！</div>
+            <div className={styles.desc}>Citi never sleeps</div>
           </div>
           {children}
         </div>
